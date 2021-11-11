@@ -1,0 +1,19 @@
+CMake is re-running because E:/WORK REPORT/Hello world/Builld/CMakeFiles/generate.stamp is out-of-date.
+  the file 'E:/WORK REPORT/Hello world/CMakeLists.txt'
+  is newer than 'E:/WORK REPORT/Hello world/Builld/CMakeFiles/generate.stamp.depend'
+  result='-1'
+CMake Error at CMakeLists.txt:12 (add_test):
+  Syntax error in cmake code at
+
+    E:/WORK REPORT/Hello world/CMakeLists.txt:12
+
+  when parsing string
+
+    ${CMAKE_CURRENT_BINARY_DIR)}/${PROJECT_NAME}
+
+  Invalid character (')') in a variable name: 'CMAKE_CURRENT_BINARY_DIR'
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/WORK REPORT/Hello world/Builld/CMakeFiles/CMakeOutput.log".
+CMake Configure step failed.  Build files cannot be regenerated correctly.

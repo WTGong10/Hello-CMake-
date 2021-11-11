@@ -1,0 +1,10 @@
+^E:\WORK REPORT\HELLO WORLD\BUILLD\CMAKEFILES\94A79E31554413F3F5709B12BCC4B120\GENERATE.STAMP.RULE
+setlocal
+D:\loads\bin\cmake.exe "-SE:/WORK REPORT/Hello world" "-BE:/WORK REPORT/Hello world/Builld" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/WORK REPORT/Hello world/Builld/HelloWorld.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

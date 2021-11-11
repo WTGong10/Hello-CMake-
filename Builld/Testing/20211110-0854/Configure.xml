@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20211110-0854-Experimental"
+	Name="DESKTOP-AHQHOT1"
+	Generator="ctest-3.15.5"
+	CompilerName="C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.29.30136.0"
+	OSName="Windows"
+	Hostname="DESKTOP-AHQHOT1"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19041)"
+	OSPlatform="x86"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="26052"
+	TotalPhysicalMemory="16324"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3600"
+	>
+	<Configure>
+		<StartDateTime>Nov 10 16:54 China Standard Time</StartDateTime>
+		<StartConfigureTime>1636534471</StartConfigureTime>
+		<ConfigureCommand>"D:/loads/bin/cmake.exe" "E:/WORK REPORT/Hello world"</ConfigureCommand>
+		<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/WORK REPORT/Hello world/Builld
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Nov 10 16:54 China Standard Time</EndDateTime>
+		<EndConfigureTime>1636534473</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

@@ -1,0 +1,10 @@
+^E:\WORK REPORT\HELLO WORLD\CMAKELISTS.TXT
+setlocal
+D:\loads\bin\cmake.exe "-SE:/WORK REPORT/Hello world" "-BE:/WORK REPORT/Hello world/Builld" --check-stamp-file "E:/WORK REPORT/Hello world/Builld/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

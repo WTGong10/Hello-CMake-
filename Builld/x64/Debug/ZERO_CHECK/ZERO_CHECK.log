@@ -1,0 +1,8 @@
+﻿  Checking Build System
+  CMake is re-running because E:/WORK REPORT/Hello world/Builld/CMakeFiles/generate.stamp is out-of-date.
+    the file 'E:/WORK REPORT/Hello world/CMakeLists.txt'
+    is newer than 'E:/WORK REPORT/Hello world/Builld/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: E:/WORK REPORT/Hello world/Builld

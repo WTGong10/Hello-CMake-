@@ -1,0 +1,37 @@
+﻿     Site: DESKTOP-AHQHOT1
+     Build name: Win32-MSBuild
+  Create new tag: 20211111-0159 - Continuous
+     Updating the repository: E:/WORK REPORT/Hello world
+  Cannot find UpdateCommand  configuration key.
+  Configure project
+     Each . represents 1024 bytes of output
+      . Size of output: 0K
+  Build project
+     Each symbol represents 1024 bytes of output.
+     '!' represents an error and '*' a warning.
+      . Size of output: 0K
+     0 Compiler errors
+     0 Compiler warnings
+  Test project E:/WORK REPORT/Hello world/Builld
+      Start 1: test1
+  1/2 Test #1: test1 ............................   Passed    0.01 sec
+      Start 2: test2
+  2/2 Test #2: test2 ............................***Failed    0.01 sec
+  
+  50% tests passed, 1 tests failed out of 2
+  
+  Total Test time (real) =   0.03 sec
+  
+  The following tests FAILED:
+  	  2 - test2 (Failed)
+  Performing coverage
+   Cannot find any coverage files. Ignoring Coverage request.
+  Submit files
+     SubmitURL: https://my.cdash.org/submit.php?project=Hellow+World+
+     Uploaded: E:/WORK REPORT/Hello world/Builld/Testing/20211111-0159/Configure.xml
+     Uploaded: E:/WORK REPORT/Hello world/Builld/Testing/20211111-0159/Build.xml
+     Uploaded: E:/WORK REPORT/Hello world/Builld/Testing/20211111-0159/Test.xml
+     Uploaded: E:/WORK REPORT/Hello world/Builld/Testing/20211111-0159/Done.xml
+     Submission successful
+  Errors while running CTest
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: Custom build for 'E:\WORK REPORT\Hello world\Builld\CMakeFiles\94a79e31554413f3f5709b12bcc4b120\Continuous.rule' exited with code 9.
